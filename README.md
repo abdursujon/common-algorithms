@@ -1,4 +1,4 @@
-# Common Algorithms
+\# Common Algorithms
 
 Classic, reusable algorithms in Java — the named building blocks (fixed steps, known complexity) that the [pattern repo](../leetcode-java) draws on. Grouped by topic, ordered easiest-first within each group.
 
