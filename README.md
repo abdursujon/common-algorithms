@@ -10,19 +10,16 @@ Classic, reusable algorithms in Java — the named building blocks (fixed steps,
 5. [HeapSort](common-algorithms/HeapSort.java)
 6. [RadixSort](common-algorithms/RadixSort.java)
 
-### Trees & Search
-7. [BinarySearchTree](common-algorithms/BinarySearchTree.java)
-8. [BSTInOrder](common-algorithms/BSTInOrder.java)
-9. [DepthFirstSearchTree](common-algorithms/DepthFirstSearchTree.java)
-10. [BreadthFirstSearchTree](common-algorithms/BreadthFirstSearchTree.java)
-11. [Trie](common-algorithms/Trie.java)
+### Search
+7. [BinarySearch](common-algorithms/BinarySearch.java)
 
-### Heap
-12. [MinHeap](common-algorithms/MinHeap.java)
+### Tree Traversal & Search
+8. [DepthFirstSearchTree](common-algorithms/DepthFirstSearchTree.java) — pre-order, in-order, post-order
+9. [BreadthFirstSearchTree](common-algorithms/BreadthFirstSearchTree.java)
 
 ### Graphs
-13. [Dijkstra](common-algorithms/Dijkstra.java)
-14. [BellmanFord](common-algorithms/BellmanFord.java)
+10. [Dijkstra](common-algorithms/Dijkstra.java)
+11. [BellmanFord](common-algorithms/BellmanFord.java)
 
 ### Dynamic Programming
-15. [Knapsack](common-algorithms/Knapsack.java)
+12. [Knapsack](common-algorithms/Knapsack.java)
