@@ -14,21 +14,21 @@ public class InsertionSort<T extends Comparable<T>>{
      * Space Complexity is O(1).
      */
     public T[] insertionSort(T[] nums){
-        for(int i = 1; i < nums.length; i++){
+        for(int i2 = 1; i2 < nums.length; i2++){
             // current element
-            T n = nums[i];
+            T n = nums[i2];
             // last index of sorted array
-            int j = i - 1;
+            int i1 = i2 - 1;
 
             // when j points to index 0 or greater, and object in j index is greater than object in i index
-            while( j >= 0 && nums[j].compareTo(n) > 0){
+            while( i1 >= 0 && nums[i1].compareTo(n) > 0){
                 // shift nums[j] one slot right
-                nums[j + 1] = nums[j];
+                nums[i1 + 1] = nums[i1];
                 // move left to check next elements
-                j--;
+                i1--;
             }
             // when loop condition is false we find the right position for unsorted element then enter it in that position
-            nums[j + 1] = n;
+            nums[i1 + 1] = n;
         }
         return nums;
     }
