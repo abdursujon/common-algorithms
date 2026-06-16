@@ -2,17 +2,17 @@ package sort;
 
 import java.util.Arrays;
 
+/**
+ * Insertion sort builds a sorted region at the front of the array one element
+ * at a time. Each iteration takes the first element of the unsorted region and
+ * shifts every larger element in the sorted region one position to the right,
+ * then places the element in the gap that opens up. The array is sorted in place.
+ *
+ * Time Complexity is O(N^2) in average and worst case, O(N) in best case.
+ * Space Complexity is O(1).
+ */
 public class InsertionSort<T extends Comparable<T>>{
 
-    /**
-     * Insertion sort builds a sorted region at the front of the array one element
-     * at a time. Each iteration takes the first element of the unsorted region and
-     * shifts every larger element in the sorted region one position to the right,
-     * then places the element in the gap that opens up. The array is sorted in place.
-     *
-     * Time Complexity is O(N^2) in average and worst case, O(N) in best case.
-     * Space Complexity is O(1).
-     */
     public T[] insertionSort(T[] nums){
         for(int i2 = 1; i2 < nums.length; i2++){
             // current element
